@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Delicious+Handrawn&family=Kanit&family=Poppins:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: N-B-1;
+  src: url(../public/Bantayog-Regular.otf);
+}
+
+@font-face {
+  font-family: C-G-32;
+  src: url(../public/Copperplate-Gothic-32-BC.otf);
+}
+@font-face {
+  font-family: GAGALIN;
+  src: url(../public/Gagalin-Regular.otf);
+}
+
+::-webkit-scrollbar {
+  width: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, rgb(3, 2, 52), blue);
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #040519;
+}
