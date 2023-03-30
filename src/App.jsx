@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
- <div className='overflow-hidden'> 
+ <div className='w-[100%] overflow-hidden'> 
   <NavBar/>
   <Home/>
  </div>

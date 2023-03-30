@@ -4,8 +4,8 @@ import "./Components.css"
 
 const NavBar = () => {
   return (
-    <div className='nav-head bg-black text-white fixed w-full z-[1000] '>
-        <div className="nav-bar w-full flex justify-center items-center flex-row text-[4.5rem] font-[N-B-1] ">
+    <div className='nav-head bg-black text-white fixed w-[100%] z-[1000] '>
+        <div className="nav-bar w-[100%] flex justify-center items-center flex-row text-[4.5rem] font-[N-B-1] ">
             <ul className='flex p-[2rem]'>
                 <li className='px-[1rem]'>Home</li>
                 <li className='px-[1rem]'>About</li>

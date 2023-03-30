@@ -5,7 +5,7 @@ import ME from "../../assets/me.jpg";
 const About = () => {
   return (
     <section className="my-[20rem]">
-      <div className="container-about pr-[30rem] pt-[15rem] text-[4rem] flex justify-center items-center">
+      <div className="container-about pr-[25rem] pt-[15rem] text-[4rem] flex justify-center items-center">
         <div className="left mr-[10rem]">
           <p className="text-white border-[white] border-[1px] p-[5rem] font-[Poppins] rounded-[20px] bg-black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
@@ -18,15 +18,13 @@ const About = () => {
           </p>
         </div>
         <div className="right">
-          <div className="img-container w-[320px] ">
+          <div className="img-container w-[370px] h-[455px]  bg-[#0f5174dd] flex justify-center items-center rounded-[50%/180px] ">
             <img
               src={ME}
-              width="1100px"
-              height="600px"
-              className="rounded-[50%/150px]"
+              className=" img-me rounded-[50%/150px] w-[320px] h-[405px] "
               alt=""
             />
-            <div className="img-up hand w-[165px] backdrop-blur-[40px]  rounded-[20px] absolute top-[98rem] pb-[.9rem] cursor-pointer  right-[52rem] bg-[#cde4f490] mx-[0] text-center text-[1.7rem]">
+            <div className="img-up hand w-[165px] backdrop-blur-[40px] rounded-[20px] absolute top-[98rem] pb-[.9rem] cursor-pointer  right-[52rem] bg-[#cde4f490] mx-[0] text-center text-[1.7rem]">
               {" "}
               Greetings...!<span className=" hover:rotate-45 text-[2.5rem] ">👋</span>
             </div>

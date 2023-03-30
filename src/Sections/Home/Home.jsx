@@ -1,10 +1,25 @@
 import React from "react";
+import { useState } from "react";
 import "../Sections.css";
 import About from "../About/About";
+import github from "../../assets/github.svg"
 
 const Home = () => {
+
+  const [position1, setPosition1] = useState(false);
+
+  const changePosition1 = () => {
+      if (window.scrollY >= 50) {
+        setPosition1(true);
+      } else {
+       setPosition1(false);
+      }
+     };
+
+     window.addEventListener("scroll", changePosition1);
+
   return (
-    <section className=" hero h-[300vh] w-[100%] pl-[15rem] pt-[18rem] bg-gradient-to-b from-[#010006] to-[#0b0a5f] overflow-hidden ">
+    <section className=" hero h-[300vh] w-[100vw] pl-[15rem] pt-[18rem] bg-gradient-to-b from-[#000000] to-[#0b0a5f] overflow-hidden relative ">
       <div className="greetings font-[C-G-32] text-[2rem] text-[#5ce1e6] ">
         Greeting! fellas, This is...
       </div>
@@ -25,11 +40,12 @@ const Home = () => {
       <div className="w-full overflow-hidden" >
         <div className="circle1 overflow-hidden h-[60rem] w-[60rem] absolute right-[-30rem] top-[40rem] rounded-[50%] bg-white"></div>
         <div className="circle2 h-[40rem] w-[40rem] absolute right-[-20rem] top-[50rem] rounded-[50%] bg-[#010006]"></div>
-      </div>
+      
 
       <div className="right-strap h-[192.5vh]  bg-[#010006] w-[10rem] absolute right-[0rem] top-[80rem]"></div>
-      <div className="social-icons">
-        <img src="../assets/github.svg" alt="" />
+      <div className={ position1? "icon social-icons absolute top-[55rem] right-[19rem] ": " icon social-icons absolute  top-[45rem] right-[8rem]"}>
+        <img src={github} height="60px" width="60px" className="icon border-[white] border-[2px] rounded-[50%] " alt="" />
+      </div>
       </div>
       <About />
     </section>
