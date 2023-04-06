@@ -1,12 +1,16 @@
 import React from "react";
 import "../Sections.css";
-import ME from "../../assets/me.jpg";
+import ME from "../../assets/me2.png";
 
 const About = () => {
   return (
-    <section className="my-[20rem]">
-      <div className="container-about pr-[25rem] pt-[15rem] text-[4rem] flex justify-center items-center">
-        <div className="left mr-[10rem]">
+    <section className="about pl-[15rem] h-[100vh] my-[0rem]" >
+              <div className="dot h-[1rem] w-[1rem] absolute left-[0rem] ml-[4.6rem]   rounded-[50%] bg-[#7af70d]"/>
+
+      <div className="heading font-[N-B-1] absolute bg-[#98dd20] px-[2rem] mt-[5rem] left-[5rem] rounded-r-lg text-[3.5rem]">About</div>
+
+      <div className="container-about pr-[35rem] pt-[15rem] text-[4rem] flex justify-center items-center">
+        <div className="left mr-[13rem]">
           <p className="text-white border-[white] border-[1px] p-[5rem] font-[Poppins] rounded-[20px] bg-black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             modi alias voluptates, aliquam neque eius vitae tempore dicta
@@ -18,15 +22,23 @@ const About = () => {
           </p>
         </div>
         <div className="right">
-          <div className="img-container w-[370px] h-[455px]  bg-[#0f5174dd] flex justify-center items-center rounded-[50%/180px] ">
+          <div id="one" className="img-container w-[265px] h-[385px]  bg-[#102960] flex justify-center items-center rounded-[50%/120px] ">
             <img
               src={ME}
-              className=" img-me rounded-[50%/150px] w-[320px] h-[405px] "
+              className=" img-me group rounded-[50%/110px] w-[235px] h-[350px] "
               alt=""
             />
-            <div className="img-up hand w-[165px] backdrop-blur-[40px] rounded-[20px] absolute top-[98rem] pb-[.9rem] cursor-pointer  right-[52rem] bg-[#cde4f490] mx-[0] text-center text-[1.7rem]">
-              {" "}
-              Greetings...!<span className=" hover:rotate-45 text-[2.5rem] ">👋</span>
+            <div className="flex items-center justify-center img-up hand w-[155px] backdrop-blur-[40px] rounded-[20px] absolute top-[98rem] py-[.3rem] px-[1rem] cursor-pointer  right-[27rem] bg-[#fcfeff63] mx-[.6rem] text-center text-[1.8rem]">
+              
+              Greetings...!<div id="two" className="hand duration-500 w-[2.3rem] pb-[0.4rem] text-[2rem]" >👋</div>
+            </div>
+            <div className="flex items-center justify-center img-up lc w-[165px] backdrop-blur-[40px] rounded-[20px] border-b-[3px] border-[black] absolute top-[115rem] py-[.6rem] px-[1rem] cursor-pointer  right-[53rem] bg-[#fcfeff63] mx-[.6rem] text-center text-[1.8rem]">
+              
+              Let's Connect
+            </div>
+            <div id="lc" className="flex items-center justify-center img-up lc w-[255px] backdrop-blur-[40px] rounded-[20px] border-b-[3px] border-[black] absolute top-[115rem] py-[.6rem] px-[1rem] cursor-pointer  right-[53rem] bg-[#fcfeff63] text-[#000000] mx-[.6rem] text-center text-[1.8rem]">
+              
+              parampragyan@gmail.com
             </div>
           </div>
         </div>
@@ -36,3 +48,5 @@ const About = () => {
 };
 
 export default About;
+
+
