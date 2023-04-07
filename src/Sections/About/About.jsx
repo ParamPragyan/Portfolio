@@ -4,14 +4,14 @@ import ME from "../../assets/me2.png";
 
 const About = () => {
   return (
-    <section className="about pl-[15rem] h-[100vh] my-[0rem]" >
+    <section className="about pl-[15rem] h-[200vh] my-[0rem]" >
               <div className="dot h-[1rem] w-[1rem] absolute left-[0rem] ml-[4.6rem]   rounded-[50%] bg-[#7af70d]"/>
 
       <div className="heading font-[N-B-1] absolute bg-[#98dd20] px-[2rem] mt-[5rem] left-[5rem] rounded-r-lg text-[3.5rem]">About</div>
 
       <div className="container-about pr-[35rem] pt-[15rem] text-[4rem] flex justify-center items-center">
         <div className="left mr-[13rem]">
-          <p className="text-white border-[white] border-[1px] p-[5rem] font-[Poppins] rounded-[20px] bg-black">
+          <p className="left-about text-white border-[white] border-[1px] p-[5rem] font-[Poppins] rounded-[20px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             modi alias voluptates, aliquam neque eius vitae tempore dicta
             consectetur fugit facilis porro quibusdam aspernatur qui! Non soluta
