@@ -31,6 +31,10 @@ body{
   font-family: GAGALIN;
   src: url(../public/Gagalin-Regular.otf);
 }
+@font-face {
+  font-family: logo-font;
+  src: url(../public/STROKEYB.TTF)
+}
 
 ::-webkit-scrollbar {
   width: 2rem;
