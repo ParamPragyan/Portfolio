@@ -8,7 +8,7 @@
 
 }
 .a1 {
-  filter: drop-shadow(0px 0px 0px #ffffff);
+  filter: none;
     box-shadow: 0px 0px 1px rgb(0, 0, 0);
     padding: 2px;
     background-color: #cbcbcbf2;
@@ -25,7 +25,8 @@
 }
 
 .a1:hover {
-    background-color: #ffffff00;
+    background-color: #ffffff;
     box-shadow: none;
+    filter: drop-shadow(none);
 
 }

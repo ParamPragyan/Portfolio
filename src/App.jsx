@@ -100,7 +100,7 @@ function App() {
             (position1.pos3 &&
               " icon he social-icons absolute  top-[76rem] right-[20rem] z-[100]") ||
               (position1.pos4 &&
-                " icon a1 social-icons fixed top-[25rem] right-[2rem] z-[100]")
+                " icon a1 social-icons fixed top-[25rem] right-[2.3rem] z-[100]")
           }
         >
           <img
@@ -122,7 +122,7 @@ function App() {
               (position1.pos3 &&
                 "icon social-icons absolute  top-[85rem] right-[14rem] z-[100]") ||
                 (position1.pos4 &&
-                  " icon a1 social-icons fixed top-[35rem] right-[2rem] z-[100]")
+                  " icon a1 social-icons fixed top-[35rem] right-[2.3rem] z-[100]")
           }
         >
           <img
@@ -143,7 +143,7 @@ function App() {
                 (position1.pos3 &&
                   " icon social-icons absolute top-[91rem] right-[4rem] z-[100]") ||
                   (position1.pos4 &&
-                    " icon a1 social-icons fixed top-[45rem] right-[2rem] z-[100]")
+                    " icon a1 social-icons fixed top-[45rem] right-[2.3rem] z-[100]")
           }
         >
           <img
