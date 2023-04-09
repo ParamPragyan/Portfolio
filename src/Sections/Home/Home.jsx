@@ -41,10 +41,10 @@ const Home = () => {
         <span className="web font-[N-B-1] text-[7rem] text-[#5ce1e6]">Web</span>
       </div>
       <div className="bio text-[1.8rem] font-[Poppins] text-white font-[550]">
-        I'm a front-end developer who is passionate about making stunning,
+        I'm a <span className="bio text-[2rem] font-[N-B-1] text-[#5ce1e6] font-[550]" > Front-end developer</span>,  who is passionate about making stunning,
         user-friendly websites.
       </div>
-      <button className=" btn-hero text-white border-[3px] border-[#5ce1e6] bg-[#010006] rounded-[3rem] px-[4.5rem] pb-[.5rem] mt-[3rem] check-btn text-[2.4rem] font-sans font-[400] ">
+      <button className=" btn-hero text-white border-[3px] border-[#5ce1e6] bg-[#010006] rounded-[3rem] px-[4.5rem] pb-[.5rem] mt-[3rem] check-btn text-[2.4rem] font-sans font-[400]">
         Check out my Work!
       </button>
       

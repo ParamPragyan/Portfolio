@@ -90,7 +90,7 @@ function App() {
       <div>
         {" "}
         <div className="right-strap h-[200vh]  bg-[#010006] w-[10rem] absolute right-[0rem] top-[80rem]" />
-        <div className="left-strap h-[100vh]  bg-[#77ce20] ml-[5rem] w-[2px] absolute left-[0rem] top-[100vh]" />
+        <div className="left-strap h-[100vh] border-dashed  border-[#77ce20] ml-[5rem] border-l-[2px] absolute left-[0rem] top-[100vh]" />
         <div
           className={
             (position1.pos1 &&
