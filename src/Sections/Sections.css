@@ -5,6 +5,7 @@
   filter: drop-shadow(0px -1px 39px #000000);
   transition-duration: 150ms;
 }
+
 .img-me:hover {
     filter: drop-shadow(0px -1px 89px #000000);
   }
@@ -42,7 +43,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #one:hover #lc {
-    display: inline;
+    display: flex;
    
 }
 

@@ -12,10 +12,15 @@
   box-sizing: border-box;
   font-size: 62.5%;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 
 body{
   overflow-x: hidden;
   scroll-behavior: smooth;
+
   
 }
 @font-face {

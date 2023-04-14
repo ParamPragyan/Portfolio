@@ -29,7 +29,7 @@ const Home = () => {
      window.addEventListener("scroll", changePosition1);
 
   return (
-    <section className=" hero h-[100vh] w-[100vw] pl-[15rem] pt-[18rem] bg-gradient-to-b from-[#000000] to-[#0b0a5f] overflow-hidden relative ">
+    <section className=" hero h-[100vh] w-[100vw] pl-[15rem] pt-[18rem] bg-gradient-to-b from-[#000000] to-[#07063b] overflow-hidden relative ">
       <div className="greetings font-[C-G-32] text-[2rem] text-[#5ce1e6] ">
         Greeting! fellas, This is...
       </div>
