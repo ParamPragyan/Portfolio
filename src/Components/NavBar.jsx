@@ -21,12 +21,12 @@ const NavBar = () => {
 
   return (
     <div className={bg ? 'nav-head bg-[#00000085] ease-in-out  backdrop-blur-[10px] border-b-[.5px] border-[#ffffff49] text-[#ffffffad] fixed w-[100%] z-[1000] ' : 'nav-head bg-[#010206] text-[#ffffffad] ease-in-out  fixed w-[100%] z-[1000] '}>
-        <div className="nav-bar w-[100%] pl-[14.6rem] pr-[14.6rem] flex py-[.8rem]  items-center justify-between flex-row text-[4.5rem] font-[N-B-1] ">
+        <div className="nav-bar w-[100%] px-[20rem] flex py-[.8rem]  items-center justify-between flex-row text-[4.5rem] font-[N-B-1] ">
           <div className="logo"><h1 className='text-[white] font-[logo-font]'>P-CUBE</h1></div>
             <ul className='flex p-[1rem]  cursor-pointer '>
                 <li className='px-[1rem] hover:text-[white] cursor-pointer'>Home</li>
                 <li className='px-[1rem] hover:text-[white] cursor-pointer'>About</li>
-                <li className='px-[1rem] hover:text-[white] cursor-pointer'>Works</li>
+                <li className='px-[1rem] hover:text-[white] cursor-pointer'>Skills</li>
                 <li className='px-[1rem] hover:text-[white] cursor-pointer'>Projects</li>
                 <li className='px-[1rem] hover:text-[white] cursor-pointer'>Contacts</li>
                 <div className='pl-[5rem]' >?</div>

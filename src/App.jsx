@@ -8,6 +8,7 @@ import About from "./Sections/About/About";
 import github from "../src/assets/github.svg";
 import twitter from "../src/assets/twitter1.svg";
 import linkedin from "../src/assets/linkedin1.svg";
+import Skills from "./Sections/Skills/Skills";
 
 function App() {
   const [position1, setPosition1] = useState({
@@ -89,7 +90,7 @@ function App() {
       <div>
         {" "}
         <div className="right-strap h-[200vh]  bg-[#010006] w-[10rem] absolute right-[0rem] top-[80rem]" />
-        <div className="left-strap h-[100vh] border-dashed  border-[#77ce20] ml-[5rem] border-l-[2px] absolute left-[0rem] top-[100vh]" />
+        <div className="left-strap h-[100vh] border-dashed  border-[#77ce20] ml-[15rem] border-l-[2px] absolute left-[0rem] top-[100vh]" />
         <div
           className={
             (position1.pos1 &&
@@ -161,6 +162,7 @@ function App() {
         {/* <div className="circle3 h-[20rem] w-[20rem] absolute left-[-10rem] top-[65rem] rounded-[50%] bg-gradient-to-b from-[#c8f70d] to-[#20207e]"/> */}
       </div>
       <About />
+      <Skills/>
     </section>
   );
 }
