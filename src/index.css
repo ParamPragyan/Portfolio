@@ -58,3 +58,76 @@ body{
 ::-webkit-scrollbar-track {
   background: #040519;
 }
+
+.frame {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.frame2 {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.icons {
+  /* height: 6rem; */
+  width: 6rem;
+}
+
+.hero-img{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .frame {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+  .name{
+    padding-bottom: 1.5rem;
+    font-size: 18.4rem;
+    width: auto;
+  }
+  .bio {
+    padding-top: 2rem;
+  }
+  .circle1,.circle2,.icon, .right-strap, .home-down-line{
+    display: none;
+  }
+  .hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 20px;
+  }
+ .hero-img{ 
+    filter: drop-shadow(0px 0px 50px #2197c8);
+    display: block;
+
+  }
+  .btn-hero{
+    border-radius: 10px;
+    border: 3px solid black;
+    color: #5ce1e6;
+    filter: drop-shadow(0px -1px 5px #2197c8);
+
+  }
+
+  .frame {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .frame2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

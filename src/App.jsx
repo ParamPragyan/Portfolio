@@ -84,7 +84,7 @@ function App() {
   window.addEventListener("scroll", changePosition1);
 
   return (
-    <section className="w-[100%] overflow-hidden relative">
+    <section className=" w-[100%] overflow-hidden relative">
       <NavBar />
       <Home />
       <div>
@@ -106,9 +106,8 @@ function App() {
           <a href="https://github.com/ParamPragyan" target="blank">
             <img
               src={github}
-              height="60px"
-              width="60px"
-              className="icon  rounded-[50%]  "
+           
+              className="icons rounded-[50%]  "
               alt=""
             />
           </a>
@@ -128,9 +127,8 @@ function App() {
           <a href="https://twitter.com/parampragyan" target="blank">
             <img
               src={twitter}
-              height="60px"
-              width="60px"
-              className="icon  rounded-[50%]  "
+              
+              className="icons rounded-[50%]  "
               alt=""
             />
             </a>
@@ -150,9 +148,8 @@ function App() {
           <a href="https://www.linkedin.com/in/parampragyan/" target="blank">
             <img
               src={linkedin}
-              height="60px"
-              width="60px"
-              className="icon  rounded-[50%]  "
+             
+              className="icons rounded-[50%]  "
               alt=""
             />
             </a>

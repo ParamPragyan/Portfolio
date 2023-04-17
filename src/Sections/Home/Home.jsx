@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Sections.css";
+import homeimg from "../../assets/home-mobile.png"
 import About from "../About/About";
 import github from "../../assets/github.svg";
 
@@ -27,11 +28,11 @@ const Home = () => {
   window.addEventListener("scroll", changePosition1);
 
   return (
-    <section className=" hero h-[100vh] w-[100vw] pl-[20rem] pt-[18rem] bg-[#040404] overflow-hidden relative ">
+    <section className=" hero frame2 h-[100vh] w-[100vw]  pt-[18rem] bg-[#040404] overflow-hidden relative ">
 
       <div className="flex items-start">
 
-      <div className="flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
+      <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
       <div class="w-5 h-5 rounded-full bg-[#5ce1e6]"></div>
       <div class="w-[.5rem] h-[35rem] sky-gradient"></div>
       </div>
@@ -57,9 +58,16 @@ const Home = () => {
         </span>
         , who is passionate about making stunning, user-friendly websites.
       </div>
+      <div className="hero-img">
+        <img src={homeimg} alt="" />
+      </div>
+      <div className="hero-btn" >
       <button className=" btn-hero text-white border-[3px] border-[#5ce1e6] bg-[#010006] rounded-r-[3rem] pl-[2rem] pr-[2rem] pb-[.5rem] mt-[3rem] check-btn text-[2.4rem] font-sans font-[400]">
         Check out my Work!
       </button>
+      </div>
+    
+     
       </div>
       
       </div>
