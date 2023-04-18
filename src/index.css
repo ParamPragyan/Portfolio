@@ -98,6 +98,10 @@ body{
   }
   .bio {
     padding-top: 1rem;
+    margin-right: 1rem;
+  }
+  .bio span {
+    line-break: auto;
   }
   .circle1,.circle2,.icon, .right-strap, .home-down-line{
     display: none;
@@ -116,13 +120,13 @@ body{
     filter: drop-shadow(0px 0px 50px #2197c8);
     display: flex;
     width: 55rem;
-    height: 20rem;
+    /* height: 20rem; */
 
   }
 
   .heroimg{
    
-    height: 25rem;
+    height: 45rem;
   }
   .btn-hero{
     border-radius: 10px;

@@ -54,9 +54,7 @@ const Home = () => {
         I'm a{" "}
         <span className="bio text-[2rem] font-[N-B-1] text-[#5ce1e6] font-[550]">
           {" "}
-          Front-end developer
-        </span>
-        , who is passionate about making stunning, user-friendly websites.
+          Front-end developer</span>, who is passionate about making stunning, user-friendly websites.
       </div>
 
 
