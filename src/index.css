@@ -92,12 +92,12 @@ body{
     font-size: 40%;
   }
   .name{
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     font-size: 18.4rem;
     width: auto;
   }
   .bio {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .circle1,.circle2,.icon, .right-strap, .home-down-line{
     display: none;
@@ -110,9 +110,19 @@ body{
     border-radius: 20px;
   }
  .hero-img{ 
+  display: flex;
+    align-items: center;
+    justify-content: center;
     filter: drop-shadow(0px 0px 50px #2197c8);
-    display: block;
+    display: flex;
+    width: 55rem;
+    height: 20rem;
 
+  }
+
+  .heroimg{
+   
+    height: 25rem;
   }
   .btn-hero{
     border-radius: 10px;
@@ -127,6 +137,7 @@ body{
     padding-right: 5rem;
   }
   .frame2 {
+
     padding-left: 5rem;
     padding-right: 5rem;
   }

@@ -58,8 +58,10 @@ const Home = () => {
         </span>
         , who is passionate about making stunning, user-friendly websites.
       </div>
+
+
       <div className="hero-img">
-        <img src={homeimg} alt="" />
+        <img className="heroimg" src={homeimg} alt="" />
       </div>
       <div className="hero-btn" >
       <button className=" btn-hero text-white border-[3px] border-[#5ce1e6] bg-[#010006] rounded-r-[3rem] pl-[2rem] pr-[2rem] pb-[.5rem] mt-[3rem] check-btn text-[2.4rem] font-sans font-[400]">
