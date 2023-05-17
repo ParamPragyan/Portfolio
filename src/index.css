@@ -85,6 +85,45 @@ body{
     padding-left: 10rem;
     padding-right: 10rem;
   }
+  .about{
+    overflow-y: hidden;
+    padding: 5rem;
+    display: flex;
+
+  }
+  .heading, .left-strap, .dot{
+    display: none;
+  }
+  .main-container-about{
+
+  }
+
+  .container-about{
+    flex-direction: column-reverse;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    gap: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* .img-container{
+    height: 100%;
+    width: 100;
+  } */
+  .left-about{
+   font-size: 80%;
+   
+  }
+  .skills{
+    padding: 5rem;
+    display: flex;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+  .skill-icons{
+    padding: 0;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 450px) {

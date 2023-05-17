@@ -5,15 +5,15 @@ import gmail from "../../assets/gmail.svg";
 
 const About = () => {
   return (
-    <section className="about pl-[23rem] h-[100vh] my-[0rem]">
+    <section className="about px-[15rem] h-[100vh] my-[0rem] ">
       <div className="dot h-[1rem] w-[1rem] absolute left-[0rem] ml-[14.6rem]   rounded-[50%] bg-[#7af70d]" />
 
-      <div className="heading font-[N-B-1] absolute bg-[#98dd20] px-[2rem] mt-[5rem] left-[15rem] rounded-r-lg text-[3.5rem]">
+      <div className="heading font-[N-B-1] absolute bg-[#98dd20] px-[2rem] mt-[10rem] left-[15rem] rounded-r-lg text-[3.5rem]">
         About
       </div>
-
-      <div className="container-about pr-[35rem] pt-[15rem] text-[4rem] flex justify-center items-center">
-        <div className="left mr-[10rem]">
+       <div className=" main-container-about flex  flex-row  justify-center items-center">
+       <div className="container-about m-[15rem] gap-[10rem] text-[4rem] flex  flex-row justify-center items-center">
+        <div className="left mr-[0rem]">
           <p className="left-about text-white border-[white] border-[1px] p-[5rem] font-[Poppins] rounded-[20px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             modi alias voluptates, aliquam neque eius vitae tempore dicta
@@ -25,11 +25,11 @@ const About = () => {
         <div className="right relative">
           <div
             id="one"
-            className="img-container w-[265px] h-[385px]  bg-[#102960] flex justify-center items-center rounded-[50%/120px] "
+            className="img-container w-[26.5rem] h-[38.5rem]  bg-[#102960] flex justify-center items-center rounded-[50%/12rem] "
           >
             <img
               src={ME}
-              className=" img-me group rounded-[50%/110px] w-[235px] h-[350px] "
+              className=" img-me group rounded-[50%/11rem] w-[23.5] h-[35rem] "
               alt=""
             />
             <div className="flex items-center img-up hand max-w-[155px] h-[4.9rem] backdrop-blur-[40px] rounded-[25px] absolute  py-[.3rem] pl-[0rem] pr-[.1rem] cursor-pointer  right-[23rem] top-[10rem] bg-[#fcfeff63] shadow-xl mx-[0rem] text-center text-[1.8rem]">
@@ -61,6 +61,8 @@ const About = () => {
           </div>
         </div>
       </div>
+       </div>
+      
     </section>
   );
 };

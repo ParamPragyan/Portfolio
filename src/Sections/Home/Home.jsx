@@ -6,26 +6,7 @@ import About from "../About/About";
 import github from "../../assets/github.svg";
 
 const Home = () => {
-  const [position1, setPosition1] = useState(false);
-  const [position2, setPosition2] = useState(false);
-
-  const changePosition1 = () => {
-    if (window.scrollY >= 50) {
-      setPosition1(true);
-    } else {
-      setPosition1(false);
-    }
-  };
-
-  //  const changePosition2 =() =>{
-  //   if (window.scrollY >= 150) {
-  //     setPosition2(true);
-  //   } else {
-  //    setPosition2(false);
-  //   }
-  //  }
-
-  window.addEventListener("scroll", changePosition1);
+ 
 
   return (
     <section className=" hero frame2 h-[100vh] w-[100vw]  pt-[18rem] bg-[#040404] overflow-hidden relative ">
@@ -33,8 +14,8 @@ const Home = () => {
       <div className="flex items-start">
 
       <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
-      <div class="w-5 h-5 rounded-full bg-[#5ce1e6]"></div>
-      <div class="w-[.5rem] h-[35rem] sky-gradient"></div>
+      <div className="w-5 h-5 rounded-full bg-[#5ce1e6]"></div>
+      <div className="w-[.5rem] h-[35rem] sky-gradient"></div>
       </div>
 
       <div>
