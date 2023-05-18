@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Sections.css";
-import homeimg from "../../assets/home-mobile.png"
+import homeimg from "../../assets/home-mobile2.png"
 import About from "../About/About";
 import github from "../../assets/github.svg";
 
