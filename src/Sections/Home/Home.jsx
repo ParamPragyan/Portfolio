@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <section className=" hero frame2 h-[100vh] w-[100vw]  pt-[18rem] bg-[#040404] overflow-hidden relative ">
 
-      <div className="flex items-start">
+      <div className="flex items-center">
 
       <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
       <div className="w-5 h-5 rounded-full bg-[#5ce1e6]"></div>
@@ -27,7 +27,7 @@ const Home = () => {
           PARAM
         </h1>
       </div>
-      <div className="whatido text-[6rem] font-[Poppins] text-[white] font-[500] ">
+      <div className="whatido text-[6rem] w-[fit-content] font-[Poppins] text-[white] font-[500] ">
         I build things for the{" "}
         <span className="web font-[N-B-1] text-[7rem] text-[#5ce1e6]">Web</span>
       </div>
