@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./Components.css"
-import logo from "../assets/logo.png"
-import { div } from '@tensorflow/tfjs';
+
 
 
 const NavBar = () => {
