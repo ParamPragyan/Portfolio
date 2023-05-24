@@ -83,11 +83,21 @@ body{
   }
   .nav-items{
     display: none;
+  } 
+  .nav-head {
+    margin-top: 0;
+    background: #040404;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding-left: 3grem;
   }
   .nav-head-changed{
     filter: blur(none);
     backdrop-filter: none;
     background: #040404;
+    border-bottom: .5px solid #ffffff49;
+    
     
   }
   .nav-bar{
