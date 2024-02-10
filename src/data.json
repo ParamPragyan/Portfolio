@@ -1,0 +1,93 @@
+{
+  "experiences": [
+    {
+      "company": "ABC",
+      "link": "/",
+      "tittle": "Software Developer 1",
+      "duration": "April 2022 - Feb 2023",
+      "desc": [
+        "jvhbfbv jhbbu jhbfb ybefbu jiuai juhiuebfib beybfw wibefbi",
+        "ubu iubeiub iuba jbebibi iubeyubvdd j beb buebu eyvuuc uu u ucc j u"
+      ]
+    },
+
+    {
+      "company": "BCD",
+      "link": "/",
+      "tittle": "Software Developer 2",
+      "duration": "April 2022 - Feb 2023",
+      "desc": [
+        "jvhbfbv jhbbu jhbfb ybefbu jiuai juhiuebfib beybfw wibefbi",
+        "ubu iubeiub iuba jbebibi iubeyubvdd j beb buebu eyvuuc uu u ucc j u"
+      ]
+    },
+    {
+      "company": "DEF",
+      "link": "/",
+      "tittle": "Software Developer 3",
+      "duration": "April 2022 - Feb 2023",
+      "desc": [
+        "jvhbfbv jhbbu jhbfb ybefbu jiuai juhiuebfib beybfw wibefbi",
+        "ubu iubeiub iuba jbebibi iubeyubvdd j beb buebu eyvuuc uu u ucc j u"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "tittle": "ESSENCE",
+      "image": ["essence.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    },
+    {
+      "tittle": "SPEEDO",
+      "image": ["speedo.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    },
+    {
+      "tittle": "SPEEDO",
+      "image": ["natter.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    },
+    {
+      "tittle": "SPEEDO",
+      "image": ["matrix.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    },
+    {
+      "tittle": "SPEEDO",
+      "image": ["cubecafe.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    },
+    {
+      "tittle": "SPEEDO",
+      "image": ["todo.png"],
+      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/SPEEDO",
+      "link": "https://speedo-chi.vercel.app/"
+    }
+  ],
+  "icons": [
+    {
+      "github": "src/assets/github.png",
+      "linkedin": "src/assets/linkedin.png",
+      "twitter": "src/assets/twitter.png",
+      "instagram": "src/assets/instagram.png"
+    }
+  ]
+}

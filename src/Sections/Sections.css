@@ -1,30 +1,45 @@
 #name {
   background: linear-gradient(
     90deg,
-    #ff4800,
+    /* #ff4800,
     rgb(249, 134, 4),
-      rgb(223, 223, 2),
-      rgb(190, 223, 2),
-      rgb(137, 201, 0),
-      rgb(89, 255, 18),
-      rgb(2, 218, 45),
-      rgb(0, 201, 167),
-      rgb(30, 86, 255),
-      rgb(158, 67, 255),
-      rgb(217, 0, 255),
-    #ff4800
+    rgb(223, 223, 2),
+    rgb(190, 223, 2),
+    rgb(137, 201, 0),
+    rgb(89, 255, 18),
+    rgb(2, 218, 45),
+    rgb(0, 201, 167),
+    rgb(30, 86, 255),
+    rgb(158, 67, 255),
+    rgb(217, 0, 255),
+    #ff4800 */
+      #fff,
+    #dddddd,
+    #adadad,
+    #969696,
+    #8f8f8f,
+    #787878,
+    #6b6b6b,
+    #636363,
+    #6b6b6b,
+    #787878,
+    #8f8f8f,
+    #969696,
+    #adadad,
+    #d9d7d7,
+    #fff
   );
   background-size: 400%;
   color: transparent;
   background-clip: text;
-  animation: name-animation 20s linear infinite;
+  animation: name-animation 14s linear infinite;
 }
 
 .left {
-  filter: drop-shadow(0px -1px 10px #116f66);
+  /* filter: drop-shadow(0px -1px 10px #d8d8d8); */
 }
 .img-me {
-  filter: drop-shadow(0px -1px 39px #000000);
+  filter: drop-shadow(0px 0px 9px #000000);
   transition-duration: 150ms;
 }
 .right {
@@ -36,7 +51,7 @@
 }
 
 .web {
-  filter: drop-shadow(0px -1px 20px #2197c8);
+  filter: drop-shadow(0px -1px 20px #8f9191);
 }
 
 .btn-hero:hover {
@@ -48,20 +63,20 @@
 }
 
 .about {
-  background-color: #030046;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='96' height='96' fill-opacity='0.45' fill='%23000566'/%3E%3C/svg%3E");
+  background-color: #080808;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='96' height='96' fill-opacity='0.25' fill='%23000000'/%3E%3C/svg%3E");
 }
-.left-about {
-  /* background: linear-gradient(from black, blue); */
+
+/* .left-about {
   background-color: #080808;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.98' height='25' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='96' height='96' fill-opacity='0.85' fill='%23000000'/%3E%3C/svg%3E");
-}
+  } */
 
 .skills {
   background-color: #040404;
 }
 
-.drop-skill{
+.drop-skill {
   filter: drop-shadow(0 0 2px white);
 }
 
@@ -108,11 +123,11 @@
 }
 
 .sky-gradient {
-  background: #5ce1e6;
-  background: linear-gradient(-90deg, #5ce1e6 0%, rgba(51, 80, 78, 0) 100%);
+  background: #d2d2d2;
+  background: linear-gradient(-90deg, #e4e5e5 0%, rgba(51, 80, 78, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #5ce1e6 0%,
+    #e1e5e5 0%,
     rgba(51, 80, 80, 0) 100%
   );
 }
