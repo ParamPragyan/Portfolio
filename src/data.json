@@ -50,7 +50,7 @@
       "link": "https://speedo-chi.vercel.app/"
     },
     {
-      "tittle": "SPEEDO",
+      "tittle": "NATTER",
       "image": ["natter.png"],
       "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
       "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
@@ -58,7 +58,7 @@
       "link": "https://speedo-chi.vercel.app/"
     },
     {
-      "tittle": "SPEEDO",
+      "tittle": "MATRIX",
       "image": ["matrix.png"],
       "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
       "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
@@ -66,7 +66,7 @@
       "link": "https://speedo-chi.vercel.app/"
     },
     {
-      "tittle": "SPEEDO",
+      "tittle": "CUBE-CAFE",
       "image": ["cubecafe.png"],
       "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
       "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
@@ -74,7 +74,7 @@
       "link": "https://speedo-chi.vercel.app/"
     },
     {
-      "tittle": "SPEEDO",
+      "tittle": "CHECK-IT",
       "image": ["todo.png"],
       "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
       "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],

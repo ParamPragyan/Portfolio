@@ -79,6 +79,12 @@
 .drop-skill {
   filter: drop-shadow(0 0 2px white);
 }
+.drop-project {
+  filter: drop-shadow(0 0 10px rgb(21, 21, 21));
+}
+.drop-project:hover {
+  filter: drop-shadow(0 4px 2px white);
+}
 
 #one:hover #two {
   /* transform: scale(1.6) rotate(45deg) translateY(-4.2rem); */
