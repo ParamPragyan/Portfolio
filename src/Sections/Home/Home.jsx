@@ -23,13 +23,13 @@ const Home = () => {
               PARAM
             </h1>
           </div>
-          <div className="whatido text-[6rem] w-[fit-content] font-[Poppins] text-[#d8d8d8] font-[500] ">
+          <div className="whatido text-[6rem] max-md:text-[3rem] w-[fit-content] font-[Poppins] text-[#d8d8d8] font-[500] ">
             I build things for the{" "}
             <span className="web font-[N-B-1] text-[7rem] text-[#ffffff]">
               Web
             </span>
           </div>
-          <div className="bio text-[1.8rem] font-[Poppins] text-[#d8d8d8] font-[550]">
+          <div className="bio max-md:hidden text-[1.8rem] font-[Poppins] text-[#d8d8d8] font-[550]">
             I'm a{" "}
             <span className="bio text-[2rem] web font-[N-B-1] text-[#ffffff] font-[550]">
               {" "}
@@ -38,9 +38,9 @@ const Home = () => {
             , who is passionate about making stunning, user-friendly websites.
           </div>
 
-          <div className="hero-img">
+          {/* <div className="hero-img">
             <img className="heroimg" src={homeimg} alt="" />
-          </div>
+          </div> */}
           <div className="hero-btn">
             <button className=" btn-hero text-white border-[3px] border-[#d8d8d8] web bg-[#010006] rounded-r-[3rem] pl-[2rem] pr-[2rem] pb-[.5rem] mt-[3rem] check-btn text-[2rem] font-sans font-[400]">
               Check out my Work!

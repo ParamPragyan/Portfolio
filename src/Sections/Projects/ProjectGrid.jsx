@@ -6,16 +6,16 @@ import data from "../../data.json";
 const ProjectGrid = () => {
   return (
     //
-    <div className="flex items-center justify-center flex-wrap ">
+    <div className=" py-40 flex items-center justify-center flex-wrap ">
       {data.projects.map((project, idx) => (
         <div
           key={idx}
-          className="drop-project flex p-[3rem] items-center justify-center hover:translate-y-[-2rem] transition-all duration-500"
+          className="drop-project  flex p-[3rem] items-center justify-center hover:translate-y-[-2rem] transition-all duration-500"
         >
-          <div className="group h-[20rem] rounded-[15px] relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
-            <div className="h-[20rem] w-fit">
+          <div className="group border-b-2 border-white h-[22rem] w-full rounded-[15px] relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
+            <div className="h-[22rem] w-fit">
               <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                className="h-full w-full object-fill transition-transform duration-500 group-hover:scale-125"
                 src={project.image}
                 alt=""
               />{" "}

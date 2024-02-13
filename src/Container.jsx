@@ -10,6 +10,7 @@ import twitter from "../src/assets/twitter1.svg";
 import linkedin from "../src/assets/linkedin1.svg";
 import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects.jsx";
+import Contact from "./Sections/Contact/Contact.jsx";
 
 function Container() {
   const [position1, setPosition1] = useState({
@@ -91,7 +92,7 @@ function Container() {
       <div>
         {" "}
         <div className="right-strap h-[200vh]  bg-[#010006] w-[10rem] absolute right-[0rem] top-[80rem]" />
-        <div className="left-strap h-[300vh] border-dashed  border-[#d8d8d8] ml-[15rem] border-l-[2px] absolute left-[0rem] top-[100vh]" />
+        {/* <div className="left-strap h-[300vh] border-dashed  border-[#d8d8d8] ml-[15rem] border-l-[2px] absolute left-[0rem] top-[100vh]" /> */}
         <div
           className={
             (position1.pos1 &&
@@ -147,6 +148,7 @@ function Container() {
       <About />
       <Skills />
       <Projects />
+      <Contact/>
     </section>
   );
 }
