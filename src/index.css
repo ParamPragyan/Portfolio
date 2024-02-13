@@ -1,10 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Delicious+Handrawn&family=Kanit&family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Delicious+Handrawn&family=Kanit&family=Poppins:wght@300;400&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 * {
   margin: 0;
@@ -12,16 +10,13 @@
   box-sizing: border-box;
   font-size: 62.5%;
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
 
-body{
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-
-  
 }
 @font-face {
   font-family: N-B-1;
@@ -38,7 +33,7 @@ body{
 }
 @font-face {
   font-family: logo-font;
-  src: url(../public/STROKEYB.TTF)
+  src: url(../public/STROKEYB.TTF);
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +42,7 @@ body{
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: linear-gradient(to bottom, rgb(1, 1, 28), rgb(11, 11, 255));
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(118, 118, 118));
   transition: all 0.5s ease-in-out;
 }
 
@@ -56,7 +51,7 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: #040519;
+  background: #000000;
 }
 
 .frame {
@@ -73,7 +68,7 @@ body{
   width: 6rem;
 }
 
-.hero-img{
+.hero-img {
   display: none;
 }
 
@@ -81,9 +76,7 @@ body{
   html {
     font-size: 50%;
   }
-  .nav-items{
-    display: none;
-  } 
+
   .nav-head {
     margin-top: 0;
     background: #040404;
@@ -92,18 +85,17 @@ body{
     border: none;
     padding-left: 3grem;
   }
-  .nav-head-changed{
+  .nav-head-changed {
     filter: blur(none);
     backdrop-filter: none;
     background: #040404;
-    border-bottom: .5px solid #ffffff49;
-    
-    
+    border-bottom: 0.5px solid #ffffff49;
   }
-  .nav-bar{
+  .nav-bar {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem
-  }.logo{
+    padding-bottom: 2.5rem;
+  }
+  .logo {
     font-size: 90%;
   }
 
@@ -111,20 +103,20 @@ body{
     padding-left: 10rem;
     padding-right: 10rem;
   }
-  .about{
+  .about {
     overflow-y: hidden;
     padding: 5rem;
     display: flex;
-
   }
-  .heading, .left-strap, .dot{
+  .heading,
+  .left-strap,
+  .dot {
     display: none;
   }
-  .main-container-about{
-
+  .main-container-about {
   }
 
-  .container-about{
+  .container-about {
     flex-direction: column-reverse;
     margin-top: 0rem;
     margin-bottom: 0;
@@ -136,17 +128,16 @@ body{
     height: 100%;
     width: 100;
   } */
-  .left-about{
-   font-size: 80%;
-   
+  .left-about {
+    font-size: 80%;
   }
-  .skills{
+  .skills {
     padding: 5rem;
     display: flex;
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
-  .skill-icons{
+  .skill-icons {
     padding: 0;
     display: flex;
   }
@@ -156,19 +147,19 @@ body{
   html {
     font-size: 40%;
   }
-  .hero{
+  .hero {
     display: flex;
     padding-top: 0rem;
   }
-  .hero2{
+  .hero2 {
     padding-top: 5rem;
   }
-  .name{
+  .name {
     padding-bottom: 1rem;
     font-size: 18.4rem;
     width: fit-content;
   }
-  .whatido{
+  .whatido {
     /* width: 85vw; */
   }
   .bio {
@@ -178,46 +169,46 @@ body{
   .bio span {
     line-break: auto;
   }
-  .circle1,.circle2,.icon, .right-strap, .home-down-line{
+  .circle1,
+  .circle2,
+  .icon,
+  .right-strap,
+  .home-down-line {
     display: none;
   }
-  .hero-btn{
+  .hero-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
     border-radius: 20px;
   }
- .hero-img{ 
-  display: flex;
+  .hero-img {
+    display: flex;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(0px 0px 50px #2197c8);
+    /* filter: drop-shadow(0px 0px 50px #2197c8); */
     display: flex;
     width: auto;
     padding-top: 3rem;
     /* height: 20rem; */
-
   }
 
-  .heroimg{
-   
+  .heroimg {
     height: 40rem;
   }
-  .btn-hero{
+  .btn-hero {
     border-radius: 10px;
     border: 3px solid black;
-    color: #5ce1e6;
-    filter: drop-shadow(0px -1px 5px #2197c8);
-
+    color: #eaeaea;
+    filter: drop-shadow(0px -1px 5px #ccd1d3);
   }
 
   .frame {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   .frame2 {
-
-    padding: 5rem;
+    padding: 0rem;
   }
 }

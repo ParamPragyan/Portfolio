@@ -7,7 +7,7 @@ import github from "../../assets/github.svg";
 
 const Home = () => {
   return (
-    <section className=" hero frame2 h-[100vh] w-[100vw]  pt-[18rem] bg-[#060606] overflow-hidden relative ">
+    <section className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-md:pt-0 max-md:flex max-md:justify-center  bg-[#060606] overflow-hidden relative ">
       <div className="flex items-center hero2">
         <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
           <div className="w-5 h-5 rounded-full bg-[#d8d8d8]"></div>
@@ -15,17 +15,22 @@ const Home = () => {
         </div>
 
         <div>
-          <div className="greetings font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
+          <div className="greetings max-md:flex max-md:justify-center max-md:text-5xl font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
             Greeting! fellas, This is...
           </div>
-          <div className="name text-[15rem] leading-[1] font-[GAGALIN]  ">
-            <h1 id="name" className="name bg-clip-text w-[43rem]">
+          <div className="name text-[15rem] leading-[1] max-md:leading-[15rem] font-[GAGALIN]  ">
+            <h1
+              id="name"
+              className="name max-md:flex max-md:justify-center bg-clip-text w-[43rem]"
+            >
               PARAM
             </h1>
           </div>
-          <div className="whatido text-[6rem] max-md:text-[3rem] w-[fit-content] font-[Poppins] text-[#d8d8d8] font-[500] ">
-            I build things for the{" "}
-            <span className="web font-[N-B-1] text-[7rem] text-[#ffffff]">
+          <div className="whatido max-md:flex flex flex-row max-md:justify-center max-md:items-center text-[6rem] max-md:text-[6rem] font-[Poppins] text-[#d8d8d8] font-[500] ">
+            <div className="flex justify-center items-center pt-3 leading-0">
+              I build things for the{" "}
+            </div>
+            <span className="web pl-3 font-[N-B-1] text-[6rem] text-[#ffffff]">
               Web
             </span>
           </div>

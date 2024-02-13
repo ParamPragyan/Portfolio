@@ -13,7 +13,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className="skills h-[100vh] px-[15rem] ">
+    <section className="skills min-h-[100vh] px-[15rem] ">
       {/* <div className='iiframe'>
   <iframe loading="lazy" className='iframe'
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFgzRQ1pxE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
@@ -28,7 +28,7 @@ const Skills = () => {
       </div>
 
       <div className="skill-icons p-[19rem]">
-        <ul className="flex flex-wrap justify-center items-center gap-[10rem]">
+        <ul className="flex flex-wrap justify-center items-center gap-[0rem]">
           <li className="w-[fit-content] p-[1rem] rounded-[.5rem] bg-black drop-skill">
             <SiJavascript className="h-[10rem]  w-[10rem] text-white" />
             <h1 className="text-[white] pt-[1rem] text-[1.5rem] flex flex-wrap justify-center items-center ">

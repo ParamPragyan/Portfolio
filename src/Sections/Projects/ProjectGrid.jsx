@@ -12,8 +12,8 @@ const ProjectGrid = () => {
           key={idx}
           className="drop-project  flex p-[3rem] items-center justify-center hover:translate-y-[-2rem] transition-all duration-500"
         >
-          <div className="group border-b-2 border-white h-[22rem] max-md:h-[30rem] w-full rounded-[15px] relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
-            <div className="h-[22rem] max-md:h-[30rem] w-fit">
+          <div className="group border-b-2 border-white h-[22rem] max-md:h-[27rem] w-full rounded-[15px] relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30  ">
+            <div className="h-[22rem] max-md:h-[27rem] w-fit">
               <img
                 className="h-full w-full object-fill transition-transform duration-500 group-hover:scale-125"
                 src={project.image}
