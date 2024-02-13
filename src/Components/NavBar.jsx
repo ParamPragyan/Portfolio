@@ -35,7 +35,7 @@ const NavBar = () => {
           <ul
             className={
               click
-                ? " nav-items-sm p-5 fixed bg-[#040404] top-[7.5vh] flex-col block"
+                ? " nav-items-sm p-5 fixed bg-[#040404] top-[1.5vh] flex-col block"
                 : " nav-items flex p-[1rem] max-lg:hidden  cursor-pointer "
             }
           >
@@ -98,7 +98,9 @@ const NavBar = () => {
           <div
             onClick={handleClick}
             class={
-              click ? "hamburger active" : "max-lg:block  hamburger  hidden "
+              click
+                ? "hamburger active z-[50]"
+                : "max-lg:block  hamburger  hidden z-[50] "
             }
           >
             {/* {click ? (
