@@ -48,7 +48,11 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              <a className={click ? "text-5xl" : "text-2xl"} href="#home">
+              <a
+                onClick={click? handleClick:''}
+                className={click ? "text-5xl" : "text-2xl"}
+                href="#home"
+              >
                 {" "}
                 Home{" "}
               </a>{" "}
@@ -60,7 +64,11 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              <a className={click ? "text-5xl" : "text-2xl"} href="#about">
+              <a
+                onClick={click? handleClick:''}
+                className={click ? "text-5xl" : "text-2xl"}
+                href="#about"
+              >
                 {" "}
                 About{" "}
               </a>{" "}
@@ -72,7 +80,11 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              <a className={click ? "text-5xl" : "text-2xl"} href="#skills">
+              <a
+                onClick={click? handleClick:''}
+                className={click ? "text-5xl" : "text-2xl"}
+                href="#skills"
+              >
                 {" "}
                 Skills
               </a>{" "}
@@ -84,7 +96,11 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              <a className={click ? "text-5xl" : "text-2xl"} href="#proj">
+              <a
+                onClick={click? handleClick:''}
+                className={click ? "text-5xl" : "text-2xl"}
+                href="#proj"
+              >
                 {" "}
                 Projects
               </a>
@@ -96,7 +112,11 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              <a className={click ? "text-5xl" : "text-2xl"} href="#proj">
+              <a
+                onClick={click? handleClick:''}
+                className={click ? "text-5xl" : "text-2xl hover:text-white"}
+                href="#proj"
+              >
                 {" "}
                 Contact
               </a>
@@ -109,8 +129,9 @@ const NavBar = () => {
               }
             >
               <a
+                onClick={handleClick}
                 href={Resume}
-                className="text-5xl"
+                className="text-5xl "
                 download="param_pragyan_resume.pdf"
               >
                 Resume
