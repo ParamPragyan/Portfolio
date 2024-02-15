@@ -34,7 +34,7 @@ const About = () => {
                 className=" img-me group rounded-[50%/11rem] w-[23.5] h-[35rem] "
                 alt=""
               />
-              <div className="flex items-center img-up hand max-w-[155px] h-[4.9rem] backdrop-blur-[40px] rounded-[25px] absolute  py-[.3rem] pl-[0rem] pr-[.1rem] cursor-pointer  right-[23rem] top-[10rem] bg-[#fcfeff63] shadow-xl mx-[0rem] text-center text-[1.8rem]">
+              <div className="flex items-center img-up hand max-w-[155px] h-[4.9rem] backdrop-blur-[40px] rounded-[25px] absolute  py-[.3rem] pl-[0rem] pr-[.1rem] cursor-pointer  right-[23rem] top-[10rem] bg-[#d2d2d2e2] shadow-xl mx-[0rem] text-center text-[1.8rem]">
                 <h1 id="lc" className="hidden  pl-[1rem]">
                   {" "}
                   Greetings...!{" "}
@@ -48,12 +48,12 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center img-up lc h-[4.9rem] max-w-[100px] pl-[0.6rem] pt-[0rem] pr-[0rem] backdrop-blur-[40px] rounded-[25px]  absolute py-[0rem] px-[0rem] top-[23rem] cursor-pointer  right-[-1.8rem] bg-[#fcfeff63] mx-[0rem] text-center text-[1.8rem]">
+              <div className="flex items-center img-up lc h-[4.9rem] max-w-[100px] pl-[0.6rem] pt-[0rem] pr-[0rem] backdrop-blur-[40px] rounded-[25px]  absolute py-[0rem] px-[0rem] top-[23rem] cursor-pointer  right-[-1.8rem] bg-[#bdbdbd] mx-[0rem] text-center text-[1.8rem]">
                 <div className="bg-gradient-to-b p-[.75rem] flex items-center from-[#852b07] to-[#f0c61b] mr-[0.5rem] rounded-[20px] ">
                   <img src={gmail} className=" w-[2.3rem]" alt="" />
                 </div>
               </div>
-              <div
+              {/* <div
                 id="lc"
                 className="flex items-center img-up w-[170px] h-[4.9rem] backdrop-blur-[40px] rounded-[25px] absolute py-[0rem] pl-[.6rem] cursor-pointer  right-[-13.9rem] top-[23rem] bg-[#fcfeff63] text-[#000000] mx-[0rem] text-center text-[1.8rem]"
               >
@@ -61,8 +61,8 @@ const About = () => {
                   <img src={gmail} className=" w-[2.3rem]" alt="" />
                 </div>
                 Let's Connect
-                {/* <img src={gmail} className=" w-[2rem]" alt="" /> */}
-              </div>
+                
+              </div> */}
             </div>
           </div>
         </div>
