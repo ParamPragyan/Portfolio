@@ -13,7 +13,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className="skills min-h-[100vh] px-[15rem] ">
+    <section id="skills" className="skills min-h-[100vh] px-[15rem] ">
       {/* <div className='iiframe'>
   <iframe loading="lazy" className='iframe'
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFgzRQ1pxE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">

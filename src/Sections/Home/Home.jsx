@@ -7,7 +7,10 @@ import github from "../../assets/github.svg";
 
 const Home = () => {
   return (
-    <section className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-md:pt-0 max-md:flex max-md:justify-center  bg-[#060606] overflow-hidden relative ">
+    <section
+      id="home"
+      className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-md:pt-0 max-md:flex max-md:justify-center  bg-[#060606] overflow-hidden relative "
+    >
       <div className="flex items-center hero2">
         <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
           <div className="w-5 h-5 rounded-full bg-[#d8d8d8]"></div>

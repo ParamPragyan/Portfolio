@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Components.css";
+import Resume from ".././assets/paramResume.pdf";
 
 const NavBar = () => {
   const [bg, setBg] = useState(false);
   const [click, setClick] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
   const changecolor = () => {
     if (window.scrollY > 50) {
@@ -46,7 +48,10 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              Home
+              <a className={click ? "text-5xl" : "text-2xl"} href="#home">
+                {" "}
+                Home{" "}
+              </a>{" "}
             </li>
             <li
               className={
@@ -55,7 +60,34 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              About
+              <a className={click ? "text-5xl" : "text-2xl"} href="#about">
+                {" "}
+                About{" "}
+              </a>{" "}
+            </li>
+            <li
+              className={
+                click
+                  ? " flex justify-center py-5 text-5xl "
+                  : "px-[1rem] hover:text-[white] cursor-pointer"
+              }
+            >
+              <a className={click ? "text-5xl" : "text-2xl"} href="#skills">
+                {" "}
+                Skills
+              </a>{" "}
+            </li>
+            <li
+              className={
+                click
+                  ? " flex justify-center py-5 text-5xl "
+                  : "px-[1rem] hover:text-[white] cursor-pointer"
+              }
+            >
+              <a className={click ? "text-5xl" : "text-2xl"} href="#proj">
+                {" "}
+                Projects
+              </a>
             </li>
             <li
               className={
@@ -64,40 +96,31 @@ const NavBar = () => {
                   : "px-[1rem] hover:text-[white] cursor-pointer"
               }
             >
-              Skills
-            </li>
-            <li
-              className={
-                click
-                  ? " flex justify-center py-5 text-5xl"
-                  : "px-[1rem] hover:text-[white] cursor-pointer"
-              }
-            >
-              Projects
-            </li>
-            <li
-              className={
-                click
-                  ? " flex justify-center py-5 text-5xl"
-                  : "px-[1rem] hover:text-[white] cursor-pointer"
-              }
-            >
-              Contacts
+              <a className={click ? "text-5xl" : "text-2xl"} href="#proj">
+                {" "}
+                Contact
+              </a>
             </li>
             <div
               className={
                 click
-                  ? " block flex justify-center py-5 text-5xl bg-white text-black"
+                  ? " flex justify-center py-5 text-5xl bg-white text-black"
                   : "px-[1rem] hidden text-black hover:text-[black] cursor-pointer"
               }
             >
-              Resume
+              <a
+                href={Resume}
+                className="text-5xl"
+                download="param_pragyan_resume.pdf"
+              >
+                Resume
+              </a>
             </div>
           </ul>
 
           <div
             onClick={handleClick}
-            class={
+            className={
               click
                 ? "hamburger active z-[50]"
                 : "max-lg:block  hamburger  hidden z-[50] "

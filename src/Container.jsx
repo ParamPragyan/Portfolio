@@ -1,18 +1,21 @@
 import { useState } from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+
 import "./App.css";
 import NavBar from "./Components/NavBar.jsx";
 import Home from "./Sections/Home/Home";
 import About from "./Sections/About/About";
 import github from "../src/assets/github.svg";
-import twitter from "../src/assets/twitter1.svg";
-import linkedin from "../src/assets/linkedin1.svg";
+import twitter from "../src/assets/twitter.svg";
+import linkedin from "../src/assets/linkedin2.svg";
 import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects.jsx";
 import Contact from "./Sections/Contact/Contact.jsx";
 
 function Container() {
+  // const [click, setClick] = useState(false);
+
   const [position1, setPosition1] = useState({
     pos1: true,
     pos2: false,
@@ -85,6 +88,10 @@ function Container() {
 
   window.addEventListener("scroll", changePosition1);
 
+  // const handleClick = () => {
+  //   setClick(!click);
+  // };
+
   return (
     <section className=" w-[100%] overflow-hidden relative">
       <NavBar />
@@ -148,7 +155,7 @@ function Container() {
       <About />
       <Skills />
       <Projects />
-      <Contact/>
+      <Contact />
     </section>
   );
 }

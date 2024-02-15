@@ -4,7 +4,7 @@ import ProjectGrid from "./ProjectGrid";
 
 const Projects = () => {
   return (
-    <div className=" relative min-h-[100vh] w-full  px-40 max-md:px-0 bg-[#060606] ">
+    <div id="proj" className=" relative min-h-[100vh] w-full  px-40 max-md:px-0 bg-[#060606] ">
       <div className="dot h-[1rem] w-[1rem] absolute left-[0rem] ml-[14.6rem]   rounded-[50%] bg-[#d8d8d8]" />
 
       <div className="left-strap h-[15vh] border-dashed  border-[#d8d8d8] ml-[15rem] border-l-[2px] absolute left-[0rem] top-[0vh] " />

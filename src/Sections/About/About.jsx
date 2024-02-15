@@ -5,7 +5,7 @@ import gmail from "../../assets/gmail.svg";
 
 const About = () => {
   return (
-    <section className="about px-[15rem] h-[100vh] my-[0rem] ">
+    <section id="about" className="about px-[15rem] h-[100vh] my-[0rem] ">
       <div className="dot h-[1rem] w-[1rem] absolute left-[0rem] ml-[14.6rem]   rounded-[50%] bg-[#d8d8d8]" />
 
       <div className="left-strap h-[15vh] border-dashed  border-[#d8d8d8] ml-[15rem] border-l-[2px] absolute left-[0rem] top-[100vh]" />
