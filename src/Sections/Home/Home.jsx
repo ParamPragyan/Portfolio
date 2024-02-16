@@ -19,11 +19,15 @@ const Home = () => {
         </div>
 
         <div>
-          {/* <div className="profile-img p-5 flex items-center justify-center">
+          <div className="hidden max-md:flex profile-img p-8 items-center justify-center">
             <div className="w-80 drop-skills">
-              <img className="w-80 rounded-full drop-profile-image" src={avt} alt="" />
+              <img
+                className="w-80 rounded-full drop-profile-image"
+                src={avt}
+                alt=""
+              />
             </div>
-          </div> */}
+          </div>
           <div className="greetings max-lg:flex max-lg:justify-center max-lg:text-5xl font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
             Greetings!, This is...
           </div>

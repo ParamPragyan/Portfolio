@@ -50,7 +50,7 @@ const ProjectGrid = () => {
               </div>
             </div>
           </div>
-          <div className=" hidden group-hover:block translate-y-[-3rem] flex-row item-center justify-center  text-2xl font-[N-B-1] text-[#fff]">
+          <div className=" hidden .group-hover:block translate-y-[-3rem] flex-row item-center justify-center  text-2xl font-[N-B-1] text-[#fff]">
             <div className="w-fit p-3 flex bg-[#000000] flex-row item-center justify-center gap-3 text-2xl font-[N-B-1] text-[#fff]">
               <h2>Technology Used:</h2>
               {project.skills.map((skill) => (
