@@ -117,8 +117,6 @@ body {
   .dot {
     display: none;
   }
-  .main-container-about {
-  }
 
   .container-about {
     flex-direction: column-reverse;
