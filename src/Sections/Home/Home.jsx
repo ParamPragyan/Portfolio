@@ -65,24 +65,24 @@ const Home = () => {
             </button>
           </div> */}
 
-          <div class="btn-conteiner max-md:justify-center mt-8">
-            <a class="btn-content" href="#proj">
-              <span class="btn-title">Check Out My Works!</span>
-              <span class="icon-arrow">
+          <div className="btn-conteiner max-md:justify-center mt-8">
+            <a className="btn-content" href="#proj">
+              <span className="btn-title">Check Out My Works!</span>
+              <span className="icon-arrow">
                 <svg
                   width="66px"
                   height="43px"
                   viewBox="0 0 66 43"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <g
                     id="arrow"
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     <path
                       id="arrow-icon-one"

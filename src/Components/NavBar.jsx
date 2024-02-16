@@ -49,7 +49,7 @@ const NavBar = () => {
               }
             >
               <a
-                onClick={click? handleClick:''}
+                onClick={click? handleClick: undefined}
                 className={click ? "text-5xl" : "text-2xl"}
                 href="#home"
               >
@@ -65,7 +65,7 @@ const NavBar = () => {
               }
             >
               <a
-                onClick={click? handleClick:''}
+                onClick={click? handleClick: undefined}
                 className={click ? "text-5xl" : "text-2xl"}
                 href="#about"
               >
@@ -81,7 +81,7 @@ const NavBar = () => {
               }
             >
               <a
-                onClick={click? handleClick:''}
+                onClick={click? handleClick: undefined}
                 className={click ? "text-5xl" : "text-2xl"}
                 href="#skills"
               >
@@ -97,7 +97,7 @@ const NavBar = () => {
               }
             >
               <a
-                onClick={click? handleClick:''}
+                onClick={click? handleClick: undefined}
                 className={click ? "text-5xl" : "text-2xl"}
                 href="#proj"
               >
@@ -113,7 +113,7 @@ const NavBar = () => {
               }
             >
               <a
-                onClick={click? handleClick:''}
+                onClick={click? handleClick: undefined}
                 className={click ? "text-5xl" : "text-2xl hover:text-white"}
                 href="#proj"
               >
@@ -161,9 +161,9 @@ const NavBar = () => {
               </div>
             )} */}
 
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
           </div>
         </div>
       </div>

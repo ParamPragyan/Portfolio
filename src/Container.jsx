@@ -1,6 +1,5 @@
 import { useState } from "react";
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 
 import "./App.css";
 import NavBar from "./Components/NavBar.jsx";
@@ -14,7 +13,6 @@ import Projects from "./Sections/Projects/Projects.jsx";
 import Contact from "./Sections/Contact/Contact.jsx";
 
 function Container() {
-  // const [click, setClick] = useState(false);
 
   const [position1, setPosition1] = useState({
     pos1: true,
@@ -88,10 +86,7 @@ function Container() {
 
   window.addEventListener("scroll", changePosition1);
 
-  // const handleClick = () => {
-  //   setClick(!click);
-  // };
-
+ 
   return (
     <section className=" w-[100%] overflow-hidden relative">
       <NavBar />

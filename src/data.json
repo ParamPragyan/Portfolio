@@ -36,7 +36,7 @@
     {
       "tittle": "ESSENCE",
       "image": ["essence.png"],
-      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
+      "desc": "ESSENCE is a health-focussed web app that can be used to keep your body posture correct. ",
       "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
       "github": "https://github.com/ParamPragyan/SPEEDO",
       "link": "https://speedo-chi.vercel.app/"
