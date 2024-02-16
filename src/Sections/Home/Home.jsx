@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <section
       id="home"
-      className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-md:pt-0 max-md:flex max-md:justify-center  bg-[#060606] overflow-hidden relative "
+      className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-lg:pt-0 max-lg:flex max-lg:justify-center  bg-[#060606] overflow-hidden relative "
     >
-      <div className="flex items-center hero2">
+      <div className="flex items-center  hero2">
         <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
           <div className="w-5 h-5 rounded-full bg-[#d8d8d8]"></div>
           <div className="w-[.5rem] h-[35rem] sky-gradient"></div>
@@ -29,7 +29,7 @@ const Home = () => {
               PARAM
             </h1>
           </div>
-          <div className="whatido max-md:flex flex flex-row max-md:justify-center max-md:items-center text-[6rem] max-md:text-[6rem] font-[Poppins] text-[#d8d8d8] font-[500] ">
+          <div className="whatido max-lg:flex flex flex-row max-lg:justify-center max-lg:items-center text-[6rem] max-lg:text-[6rem] font-[Poppins] text-[#d8d8d8] font-[500] ">
             <div className="flex justify-center items-center pt-3 leading-0">
               I build things for the{" "}
             </div>

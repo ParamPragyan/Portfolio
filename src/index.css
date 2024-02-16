@@ -141,6 +141,13 @@ body {
     padding: 0;
     display: flex;
   }
+  .circle1,
+  .circle2,
+  .icon,
+  .right-strap,
+  .home-down-line {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -159,9 +166,8 @@ body {
     font-size: 18.4rem;
     width: fit-content;
   }
-  .whatido {
-    /* width: 85vw; */
-  }
+  /* .whatido {
+  } */
   .bio {
     padding-top: 1rem;
     /* width: 80vw; */
