@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className=" hero frame2  h-[100vh] w-[100vw]  pt-[18rem] max-lg:pt-0 max-lg:flex max-lg:justify-center  bg-[#060606] overflow-hidden "
+      className=" hero frame2  h-[100vh] w-[100vw]  pt-[18rem] max-lg:pt-[0rem] max-lg:pb-[10rem] max-lg:flex max-lg:justify-center  bg-[#060606] overflow-hidden "
     >
       <div className="flex items-center  hero2">
         <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
@@ -66,7 +66,7 @@ const Home = () => {
           </div> */}
 
           <div class="btn-conteiner max-md:justify-center mt-8">
-            <a class="btn-content" href="#">
+            <a class="btn-content" href="#proj">
               <span class="btn-title">Check Out My Works!</span>
               <span class="icon-arrow">
                 <svg
