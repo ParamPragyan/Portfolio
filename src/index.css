@@ -83,7 +83,7 @@ body {
     width: 100%;
     border-radius: 0;
     border: none;
-    padding-left: 3grem;
+    /* padding-left: 3rem; */
   }
   .nav-head-changed {
     filter: blur(none);
@@ -102,6 +102,10 @@ body {
   .frame {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+  .frame2 {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   .about {
     overflow-y: hidden;

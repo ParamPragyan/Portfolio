@@ -82,6 +82,9 @@
 .drop-project {
   filter: drop-shadow(0 0 10px rgb(21, 21, 21));
 }
+.drop-profile-image {
+  filter: drop-shadow(0 0px 5px rgb(129, 129, 129));
+}
 .drop-project:hover {
   filter: drop-shadow(0 4px 2px white);
 }

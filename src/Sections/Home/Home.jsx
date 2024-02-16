@@ -4,12 +4,13 @@ import "../Sections.css";
 import homeimg from "../../assets/home-mobile2.png";
 import About from "../About/About";
 import github from "../../assets/github.svg";
+import avt from "../../assets/AvatarMaker.png";
 
 const Home = () => {
   return (
     <section
       id="home"
-      className=" hero frame2   h-[100vh] w-[100vw]  pt-[18rem] max-lg:pt-0 max-lg:flex max-lg:justify-center  bg-[#060606] overflow-hidden relative "
+      className=" hero frame2  h-[100vh] w-[100vw]  pt-[18rem] max-lg:pt-0 max-lg:flex max-lg:justify-center  bg-[#060606] overflow-hidden "
     >
       <div className="flex items-center  hero2">
         <div className=" home-down-line flex flex-col justify-center items-center mr-[3rem] mt-[.8rem]">
@@ -18,18 +19,23 @@ const Home = () => {
         </div>
 
         <div>
-          <div className="greetings max-md:flex max-md:justify-center max-md:text-5xl font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
-            Greeting! fellas, This is...
+          {/* <div className="profile-img p-5 flex items-center justify-center">
+            <div className="w-80 drop-skills">
+              <img className="w-80 rounded-full drop-profile-image" src={avt} alt="" />
+            </div>
+          </div> */}
+          <div className="greetings max-lg:flex max-lg:justify-center max-lg:text-5xl font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
+            Greetings!, This is...
           </div>
-          <div className="name text-[15rem] leading-[1] max-md:leading-[15rem] font-[GAGALIN]  ">
+          <div className="name max-lg:flex max-lg:justify-center max-lg:items-center min-lg:text-[20rem] text-[15rem] leading-[1] max-md:leading-[15rem] font-[GAGALIN]  ">
             <h1
               id="name"
-              className="name max-md:flex max-md:justify-center bg-clip-text w-[43rem]"
+              className="name max-lg:flex max-lg:justify-center bg-clip-text w-[43rem]"
             >
               PARAM
             </h1>
           </div>
-          <div className="whatido max-lg:flex flex flex-row max-lg:justify-center max-lg:items-center text-[6rem] max-lg:text-[6rem] font-[Poppins] text-[#d8d8d8] font-[500] ">
+          <div className=" max-lg:flex flex flex-row max-lg:justify-center max-lg:items-center text-[6rem] max-lg:text-[6rem] font-[Poppins] text-[#d8d8d8] font-[500] ">
             <div className="flex justify-center items-center pt-3 leading-0">
               I build things for the{" "}
             </div>
