@@ -2,7 +2,6 @@ import React from "react";
 import github from "../../assets/github.svg";
 import link from "../../assets/link.svg";
 import data from "../../data.json";
-import { div } from "@tensorflow/tfjs";
 
 const ProjectGrid = () => {
   return (
