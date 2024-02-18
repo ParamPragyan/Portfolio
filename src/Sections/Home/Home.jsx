@@ -5,6 +5,7 @@ import homeimg from "../../assets/home-mobile2.png";
 import About from "../About/About";
 import github from "../../assets/github.svg";
 import avt from "../../assets/AvatarMaker.png";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -20,13 +21,22 @@ const Home = () => {
 
         <div>
           <div className="hidden max-md:flex profile-img p-8 items-center justify-center">
-            <div className="w-80 drop-skills">
-              <img
-                className="w-80 rounded-full drop-profile-image"
-                src={avt}
-                alt=""
-              />
-            </div>
+            <motion.div
+              animate={{
+                scale: [1, 2, 2, 1, 1],
+                rotate: [0, 0, 360, 360, 0],
+                borderRadius: ["20%", "20%", "20%", "50%", "50%"],
+              }}
+              transition={{
+                ease: "linear",
+                duration: 3,
+                x: { duration: 1 },
+                y: { duration: 6},
+              }}
+              className="w-96 z-[1001] bg-white p-5  drop-skills"
+            >
+              <img className="img-neo w-96 rounded-full " src={avt} alt="" />
+            </motion.div>
           </div>
           <div className="greetings max-lg:flex max-lg:justify-center max-lg:text-5xl font-[C-G-32] text-[2rem] text-[#d8d8d8] ">
             Greetings!, This is...

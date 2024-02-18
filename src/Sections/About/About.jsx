@@ -2,6 +2,7 @@ import React from "react";
 import "../Sections.css";
 import ME from "../../assets/me2.png";
 import gmail from "../../assets/gmail.svg";
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
