@@ -25,15 +25,16 @@ const Home = () => {
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
+                translateY: [0, 130, 0],
                 borderRadius: ["20%", "20%", "20%", "50%", "50%"],
               }}
               transition={{
                 ease: "linear",
                 duration: 3,
                 x: { duration: 1 },
-                y: { duration: 6},
+                y: { duration: 1 },
               }}
-              className="w-96 z-[1001] bg-white p-5  drop-skills"
+              className="w-96 z-[50] bg-white p-5  drop-skills"
             >
               <img className="img-neo w-96 rounded-full " src={avt} alt="" />
             </motion.div>
