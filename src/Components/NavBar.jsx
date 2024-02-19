@@ -37,7 +37,7 @@ const NavBar = () => {
           <ul
             className={
               click
-                ? " nav-items-sm p-5 fixed bg-[#040404] top-[1.5vh] flex-col block"
+                ? " nav-items-sm p-5 fixed z-[1003] bg-[#040404] top-[1.5vh] flex-col block"
                 : " nav-items flex p-[1rem] max-lg:hidden  cursor-pointer "
             }
           >
