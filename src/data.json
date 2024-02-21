@@ -37,7 +37,7 @@
       "tittle": "ESSENCE",
       "image": ["essence.png"],
       "desc": "ESSENCE is a health-focussed web app that can be used to keep your body posture correct. ",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "skills": ["ReactJS,", "NodeJS,", "Tensorflow.js,", "Firebase,", "TailwindCSS" ],
       "github": "https://github.com/ParamPragyan/SPEEDO",
       "link": "https://speedo-chi.vercel.app/"
     },

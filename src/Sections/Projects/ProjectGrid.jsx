@@ -50,8 +50,8 @@ const ProjectGrid = () => {
             </div>
           </div>
 
-          <div className="flex px-[3rem] w-full translate-y-[-3rem] flex-row item-center justify-center  text-2xl font-[N-B-1] text-[#fff]">
-            <div className="w-full py-5 rounded-b-lg flex bg-[#363636] flex-row item-center justify-center gap-3 text-2xl  text-[#fff]">
+          <div className="flex px-[3rem]  w-full translate-y-[-3rem] flex-row item-center justify-center  text-2xl font-[N-B-1] text-[#fff]">
+            <div className="w-full drop-project-skill  py-5 rounded-b-lg flex bg-[#00000000] flex-row item-center justify-center gap-3 text-2xl  text-[#fff]">
               <h2>Technology Used:</h2>
               {project.skills.map((skill) => (
                 <div>
