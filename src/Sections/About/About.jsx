@@ -2,7 +2,8 @@ import React from "react";
 import "../Sections.css";
 import ME from "../../assets/me2.png";
 import gmail from "../../assets/gmail.svg";
-import { motion } from "framer-motion"
+import Resume from "../../assets/paramResume.pdf";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -15,15 +16,20 @@ const About = () => {
         About
       </div>
       <div className=" main-container-about flex  flex-row  justify-center items-center">
-        <div className="container-about m-[15rem] gap-[10rem] text-[4rem] flex  flex-row justify-center items-center">
+        <div className="container-about m-[15rem] gap-[10rem] text-[4.5rem] flex  flex-row justify-center items-center">
           <div className="left mr-[0rem]">
-            <p className="left-about text-white p-[5rem] font-[Poppins] rounded-[20px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              modi alias voluptates, aliquam neque eius vitae tempore dicta
-              consectetur fugit facilis porro quibusdam aspernatur qui! Non
-              soluta recusandae illum doloribus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.{" "}
+            <p className="left-about text-white px-[5rem] py-5 font-[Poppins] rounded-[20px]">
+              A Front-end developer having strong foundation in building modern
+              and responsive user interfaces and aspire to build complex web
+              applications .
             </p>
+            <a
+              href={Resume}
+              className="text-[2rem] mx-[5rem] p-3 rounded-lg font-bold bg-[#dadada] "
+              download="param_pragyan_resume.pdf"
+            >
+              Resume 
+            </a>
           </div>
           <div className="right relative">
             <div
