@@ -31,14 +31,22 @@ const ProjectGrid = () => {
                 </p>
                 <p></p>
                 <div className="icon-project rounded-b-2xl px-5 py-2 flex gap-9">
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="w-[3rem] bg-[white] rounded-full"
                       src={github}
                       alt=""
                     />
                   </a>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="w-[3rem] p-1 bg-white rounded-full"
                       src={link}
@@ -50,12 +58,12 @@ const ProjectGrid = () => {
             </div>
           </div>
 
-          <div className="flex px-[3rem]  w-full translate-y-[-3rem] flex-row item-center justify-center  text-2xl font-[N-B-1] text-[#fff]">
-            <div className="w-full drop-project-skill  py-5 rounded-b-lg flex bg-[#00000000] flex-row item-center justify-center gap-3 text-2xl  text-[#fff]">
+          <div className="flex px-[3rem]  w-full translate-y-[-3rem] flex-row item-center justify-center  text-xl font-[N-B-1] text-[#fff]">
+            <div className="w-full drop-project-skill  py-5 rounded-b-lg flex bg-[#00000000] flex-row item-center justify-center gap-3 text-xl  text-[#fff]">
               <h2>Technology Used:</h2>
               {project.skills.map((skill) => (
                 <div>
-                  <p className="text-2xl">{skill}</p>
+                  <p className="text-xl">{skill}</p>
                 </div>
               ))}
             </div>

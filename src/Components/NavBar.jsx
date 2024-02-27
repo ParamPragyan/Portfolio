@@ -115,7 +115,7 @@ const NavBar = () => {
               <a
                 onClick={click ? handleClick : undefined}
                 className={click ? "text-5xl" : "text-2xl hover:text-white"}
-                href="#proj"
+                href="#contact"
               >
                 {" "}
                 Contact

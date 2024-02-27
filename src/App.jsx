@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 // import viteLogo from '/vite.svg'
 import "./App.css";
 import Container from "./Container";
-import Loder from "./Sections/loder"
+import Loder from "./Sections/loder";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -11,20 +11,13 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2500); 
-
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
-  
+
   return (
-    <div>
-      {loading ? (
-          <Loder/>
-      ) : (
-        <Container/>
-      )}
-    </div>
+    <div className="bg-[#060606]">{loading ? <Loder /> : <Container />}</div>
   );
 }
 

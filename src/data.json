@@ -42,7 +42,8 @@
         "NodeJS,",
         "Tensorflow.js,",
         "Firebase,",
-        "TailwindCSS"
+        "TailwindCSS,",
+        "MongoDB"
       ],
       "github": "https://github.com/EssenceHQ",
       "link": "https://essence-omega.vercel.app"
@@ -51,41 +52,41 @@
       "tittle": "SPEEDO",
       "image": ["speedo.png"],
       "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "skills": ["JavaScript,", "Twitter-Card,", "CSS,", "Html"],
       "github": "https://github.com/ParamPragyan/SPEEDO",
       "link": "https://speedo-chi.vercel.app/"
     },
     {
       "tittle": "NATTER",
       "image": ["natter.png"],
-      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
+      "desc": "NATTER is a cutting-edge chatting application designed using MERN stack and Socket.io.",
+      "skills": ["ReactJS,","NodeJS,","express.js,","MongoDB,","Styled Components"],
       "github": "https://github.com/ParamPragyan/Natter",
       "link": "https://github.com/ParamPragyan/Natter"
     },
     {
       "tittle": "MATRIX",
       "image": ["matrix.png"],
-      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
-      "github": "https://github.com/ParamPragyan/SPEEDO",
-      "link": "https://speedo-chi.vercel.app/"
+      "desc": "It is a canvas frame that uses some charcters to show special effects.",
+      "skills": ["JavaScript", "CANVAS", "CSS", "Html"],
+      "github": "https://github.com/ParamPragyan/Matrix-Canvas",
+      "link": "https://matrix-canvas.vercel.app/"
     },
     {
       "tittle": "CUBE-CAFE",
       "image": ["cubecafe.png"],
-      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
-      "github": "https://github.com/ParamPragyan/SPEEDO",
-      "link": "https://speedo-chi.vercel.app/"
+      "desc": "CUBE-CAFE is a Restaurant website with some cool designs.",
+      "skills": ["ReactJS,","JavaScript,", "CSS,", "Html"],
+      "github": "https://github.com/ParamPragyan/Cube-Cafe",
+      "link": "https://cube-cafe.vercel.app/"
     },
     {
       "tittle": "CHECK-IT",
       "image": ["todo.png"],
-      "desc": "SPEEDO is a web application that, in certain instances, analyses your internet connection's speed.",
-      "skills": ["JavaScript", "Twitter-Card", "CSS", "Html"],
-      "github": "https://github.com/ParamPragyan/SPEEDO",
-      "link": "https://speedo-chi.vercel.app/"
+      "desc": "CHECK-IT is a priority list web app.",
+      "skills": ["JavaScript,", "CSS,", "Html"],
+      "github": "https://github.com/ParamPragyan/Check-It",
+      "link": "https://to-do-list-sable-eight.vercel.app/"
     }
   ],
   "icons": [
